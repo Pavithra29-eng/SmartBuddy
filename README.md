@@ -15,8 +15,6 @@ Pinecone, Weaviate, and Chroma actually work under the hood.
 > that requires the full backend with Ollama, but you can play with real
 > HNSW/KD-Tree/Brute-Force search instantly.
 
-![SmartBuddy screenshot](screenshot.png)
-
 ## Try it instantly — no install needed
 
 Just want to see it in action first? Open [`demo.html`](demo.html) directly in
