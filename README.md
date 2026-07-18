@@ -4,11 +4,6 @@ A fully working Vector Database built from scratch in **Python** with a web UI.
 Implements HNSW, KD-Tree, and Brute Force search algorithms side-by-side, plus a
 RAG pipeline powered by a local LLM via Ollama.
 
-> This is the Python rewrite of the original C++ project (formerly "VectorDB"),
-> renamed **SmartBuddy**. Same algorithms, same REST API, same web UI — now
-> running on Flask instead of a compiled C++ binary, so there's no compiler
-> step at all.
-
 Built as an educational project to show how production vector databases like
 Pinecone, Weaviate, and Chroma actually work under the hood.
 
