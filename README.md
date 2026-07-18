@@ -9,7 +9,7 @@ Pinecone, Weaviate, and Chroma actually work under the hood.
 
 ![SmartBuddy dashboard](screenshot.png)
 
-> **Want to try it without installing anything?** Open `demo.html` directly in
+> **Want to try it without installing anything?** Open `SmartBuddy — Live Demo.html` directly in
 > your browser — it's a fully standalone version of the Search tab (no Python,
 > no Ollama needed). The Documents/Ask AI tabs show a pre-loaded example since
 > that requires the full backend with Ollama, but you can play with real
