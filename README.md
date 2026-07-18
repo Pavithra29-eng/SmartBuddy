@@ -7,6 +7,25 @@ RAG pipeline powered by a local LLM via Ollama.
 Built as an educational project to show how production vector databases like
 Pinecone, Weaviate, and Chroma actually work under the hood.
 
+![SmartBuddy dashboard](screenshot.png)
+
+> **Want to try it without installing anything?** Open `demo.html` directly in
+> your browser — it's a fully standalone version of the Search tab (no Python,
+> no Ollama needed). The Documents/Ask AI tabs show a pre-loaded example since
+> that requires the full backend with Ollama, but you can play with real
+> HNSW/KD-Tree/Brute-Force search instantly.
+
+![SmartBuddy screenshot](screenshot.png)
+
+## Try it instantly — no install needed
+
+Just want to see it in action first? Open [`demo.html`](demo.html) directly in
+your browser (double-click it, no Python or Ollama required). It's a
+standalone build with the Search tab fully working client-side, plus a
+pre-loaded example in the Documents/Ask AI tabs so you can see the full RAG
+flow. The full setup below gives you the real, live version with your own
+documents and a local LLM.
+
 ## What This Project Does
 
 | Feature | Description |
@@ -220,6 +239,8 @@ SmartBuddy/
 ├── engine.py          ← Core engine (HNSW, KD-Tree, BruteForce, VectorDB, DocumentDB)
 ├── requirements.txt   ← Python dependencies (Flask, requests)
 ├── index.html         ← Frontend (PCA scatter plot, chat UI, benchmark) — unchanged
+├── demo.html          ← Standalone no-install demo (open directly in a browser)
+├── screenshot.png     ← App screenshot shown above
 └── README.md          ← This file
 ```
 
